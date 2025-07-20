@@ -1,0 +1,163 @@
+body {
+    font-family: "Karla", sans-serif;
+    margin: 0;
+    background-color: #E6EFF6;
+}
+
+.main-parent {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    width: 730px;
+    height: 100vh;
+    margin-inline: auto;
+}
+
+.uper-portion {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 215px;
+    background-color: #fff;
+}
+
+.uper-portion h1 {
+    color: #2DAFA7;
+    font-weight: 500;
+    font-size: 26px;
+    padding-top: 40px;
+}
+
+.uper-portion h3 {
+    font-size: 18px;
+    color: #D1E664;
+    padding-top: 10px;
+}
+
+.uper-portion p {
+    color: rgba(0, 0, 0, 0.411);
+    font-weight: 300;
+    margin-top: -8px;
+
+}
+
+.uper-portion h1,
+h3,
+p {
+    margin-inline: 70px;
+}
+
+.second-parent {
+    width: 100%;
+    height: 215px;
+    display: flex;
+    b
+}
+
+.left-div {
+    width: 365px;
+    height: 260px;
+    background-color: #2BB3B1;
+    border-bottom-left-radius: 10px;
+    color: #FFFFFF;
+}
+
+.left-div h2 {
+    font-size: 17px;
+    margin: 50px;
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+.left-div h1 {
+    margin-left: 40px;
+    font-size: 40px;
+    margin-top: -20px;
+}
+
+h1 span {
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 5px;
+    margin-bottom: 300px;
+    color: hsla(0, 0%, 100%, 0.486);
+}
+
+.left-div p {
+    font-size: 16.54px;
+    margin-left: 35px;
+}
+
+.left-div button {
+    border: none;
+    padding: 15px 100px;
+    font-size: 15px;
+    margin-left: 50px;
+    border-radius: 5px;
+    color: white;
+    background-color: #BFDF32;
+    cursor: pointer;
+}
+
+.right-div {
+    border-bottom-right-radius: 10px;
+    width: 365px;
+    height: 260px;
+    background-color: #4ABEBD;
+    color: white;
+}
+
+.right-div h1 {
+    font-size: 17px;
+    color: #fff;
+    margin-left: 50px;
+    margin-top: 45px;
+}
+
+.right-div p {
+    margin: 12px;
+    /* margin-top: ; */
+    margin-left: 50px;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 8px;
+}
+@media(max-width:745px){
+    .main-parent{
+        margin-top: 50%;
+        margin-bottom: 50%;
+
+    }
+     .uper-portion{
+        width: 365px;
+        height: auto;
+        margin: auto;
+        margin-top:10%;
+        
+     }
+     .uper-portion h3{
+        padding-top: 0;
+        padding-bottom:0 ;
+     }
+     .second-parent{
+        display: block;
+        height: auto;
+        /* margin-top: 0; */
+        margin: auto;
+     }
+     .left-div{
+        margin: auto;
+        width: 345px;
+        padding: 10px;
+        border-bottom-left-radius: 0px;
+     }
+     .right-div{
+                margin: auto;
+        width: 345px;
+        padding: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px
+     }
+
+}
